@@ -16,8 +16,7 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: #243641;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -156,8 +155,8 @@ button {
 /* links */
 a:any-link {
   color: var(--link-color);
-  text-decoration: none;
-  word-break: break-word;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 a:hover {
@@ -166,7 +165,6 @@ a:hover {
 }
 
 /* buttons */
-a.button:any-link,
 button {
   box-sizing: border-box;
   display: inline-block;
@@ -214,6 +212,8 @@ main img {
   max-width: 100%;
   width: auto;
   height: auto;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .icon {
@@ -254,4 +254,7 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+.default-content-wrapper > p {
+  max-width: 40%;
 }
