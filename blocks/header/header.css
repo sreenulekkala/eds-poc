@@ -51,7 +51,9 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: #243641;
+  text-decoration: none !important;
+  font-family: effra,Tahoma,sans-serif;
 }
 
 /* hamburger */
