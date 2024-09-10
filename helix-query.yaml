@@ -1,10 +1,10 @@
 indices:
-  ca-en:
+  eds-poc: &default
     include:
-      - /**
+      - '/**'
     exclude:
-      - /documents/snippets/**
-    target: /query-index.json
+      - '/documents/snippets/**'
+    target: /query-index
     properties:
       title:
         select: head > meta[property="og:title"]
