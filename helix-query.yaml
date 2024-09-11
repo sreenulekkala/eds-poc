@@ -3,7 +3,7 @@ indices:
     include:
       - '/**'
     exclude:
-      - '/documents/snippets/**'
+      - '/documents/**'
     target: /query-index
     properties:
       title:
